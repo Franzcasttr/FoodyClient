@@ -1,0 +1,11 @@
+export const GET_PRODUCT_BEGIN = 'GET_PRODUCT_BEGIN';
+export const CLEAR_CART = 'CLEAR_CART';
+export const INCREASE = 'INCREASE';
+export const DECREASE = 'DECREASE';
+export const REMOVE = 'REMOVE';
+export const GET_TOTALS = 'GET_TOTALS';
+export const GET_EXCLUSIVE_PRODUCT = 'GET_EXCLUSIVE_PRODUCT';
+export const GET_BEST_PRODUCT = 'GET_BEST_PRODUCT';
+export const GET_PRODUCT = 'GET_PRODUCT';
+export const GET_SINGLE_PRODUCT = 'GET_SINGLE_PRODUCT';
+export const LOAD_PRODUCTS = 'LOAD_PRODUCTS';

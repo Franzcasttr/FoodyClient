@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --clr-primary-1: #57cc99;
+  --clr-primary-green: #88c0a7;
+  --clr-primary-dark-green: #38996d;
+  --clr-primary-2: #01c7f2;
+  --clr-primary-4: #f4fbff;
+  --clr-primary-5: #3f3f3f;
+  --clr-secondary-1: #ffcaca;
+  --clr-secondary-3: #11cfdd;
+  --clr-secondary-2: #f4fbff;
+  --clr-light-grey2: #f5f8ff;
+  --clr-light-grey4: #dcdfeb;
+  --clr-light-grey3: #969daf;
+  --clr-light-grey5: #e0e0e0;
+  --clr-light-grey: #c4c4c4;
+  --clr-dark-green: #4c5270;
+  /* --clr-yellow: #e8f80b; */
+  --clr-date: #a7a7a7;
+  --red-light: #f5a4b5;
+  --red-yellow: #ece075;
+  --red-dark: #ad434c;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+  --background: #ebeff2;
+  --sidebar: #f8fcff;
+  --clr-search: #f7f7f7;
+  --clr-darkgrey: #838383;
+  --clr-red: #ff2881;
+  --clr-clear: #f84270;
+  --clr-price: #ff5e01;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: -4px -4px 8px #ffffff, 4px 4px 8px rgba(120, 120, 120, 0.1);
+  --lightblue-shadow: 0px 4px 40px rgba(90, 176, 224, 0.15);
+  --blue-shadow: 0px 1px 10px rgba(44, 148, 204, 0.15);
+  --shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background-color: var(--background);
+  color: var(--clr-primary-5);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+}
+h5 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.section {
+  padding: 5rem 0;
+}
+.section2 {
+  padding: 2rem 0;
+}
+.full-width {
+  width: 100vw !important;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --light-shadow: -4px -4px 8px #f0f0f0, 4px 4px 8px rgba(120, 120, 120, 0.1) !important;
+  }
+  body {
+    background-color: #ffffff;
+  }
+}
